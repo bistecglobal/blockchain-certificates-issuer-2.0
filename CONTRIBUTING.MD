@@ -4,7 +4,7 @@ Welcome to the project! We appreciate your interest and efforts in contributing 
 
 ## Issues and Feature Requests
 
-If you find any issues or bugs in the project or have a feature request, please check the [existing issues](https://github.com/bistecglobal/blockchain-certificates-issuer/issues) to see if it's already been reported. If not, feel free to [open a new issue](https://github.com/bistecglobal/blockchain-certificates-issuer/issues/new) and provide a clear description of the problem or feature request.
+If you find any issues or bugs in the project or have a feature request, please check the [existing issues](https://github.com/bistecglobal/blockchain-certificates-issuer/issues) to see if it's already been reported. If not, feel free to [open a new issue](https://github.com/bistecglobal/blockchain-certificates-issuer-2.0/issues/new) and provide a clear description of the problem or feature request.
 
 ## Pull Requests
 
@@ -18,6 +18,6 @@ We welcome contributions in the form of pull requests. Before submitting a pull 
 
 ## License
 
-By contributing to this project, you agree that your contributions will be licensed under the project's [LICENSE](https://github.com/bistecglobal/blockchain-certificates-issuer/blob/main/LICENSE).
+By contributing to this project, you agree that your contributions will be licensed under the project's [LICENSE](https://github.com/bistecglobal/blockchain-certificates-issuer-2.0/blob/main/LICENSE).
 
 Thank you for your contribution!
