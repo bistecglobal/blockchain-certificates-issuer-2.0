@@ -6,7 +6,7 @@
 
 ## Official Docs
 
-[https://bistecglobal.github.io/blockchain-certificates-issuer/](https://bistecglobal.github.io/blockchain-certificates-issuer)
+[Verified ID Document](https://github.com/bistecglobal/blockchain-certificates-issuer-2.0/blob/main/Docs/Verified-ID.md)
 
 ## About
 
