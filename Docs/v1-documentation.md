@@ -1,9 +1,5 @@
 # Project Migration Documentation: Version 1
 
-**Owned by:** Jayath de Silva  
-**Last updated:** Feb 22, 2024  
-**Estimated reading time:** 2 min read
-
 ## Overview
 
 The project migration will be conducted version by version. The initial version will integrate the Self-Sovereign Identity concept using Verifiable Credentials for Academic Credentials. Therefore, the previous CRUD functionalities related to courses, trainees, and trainers will remain at the same stage but will migrate from Azure Functions to ASP.NET Core Web API. The certificate issuer part is migrating as a Verified ID, Verifiable Credentials.
