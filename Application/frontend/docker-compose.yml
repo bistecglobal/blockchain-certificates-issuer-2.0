@@ -5,9 +5,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: my-next-app
+    container_name: frontend
     ports:
       - "3000:3000"
     volumes:
-      - .:/my-app
-      - /my-app/node_modules
+      - .:/frontend
+      - /frontend/node_modules
