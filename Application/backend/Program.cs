@@ -1,3 +1,7 @@
+using backend;
+using backend.Services;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +10,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.Configure<AzureCosmosDBSettings>(builder.Configuration.GetSection("AzureCosmosDBSettings"));
+builder.Services.TryAddSingleton<ICourseServices, CourseServices>();
 
 var app = builder.Build();
 
