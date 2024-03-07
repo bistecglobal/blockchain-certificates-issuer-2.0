@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kpVkqaspm/a3l7qYUCmPosms3UNmSNiFQ6FVmfxSswJAddS6QBAW0hRLzYEMP7w2C/8V8iZzZOjs6DR4pGdINw==",
+  "dgSpecHash": "dz9uppzatcwW5vlvvnQZVwXmbLMsxC6+NNOvjjm6Tii2sAv5v+xd9gkL5oNUXD7WcMsywSOk26YBuF9zeJEMfA==",
   "success": true,
   "projectFilePath": "D:\\repo\\blockchain-certificates-issuer-2.0\\Application\\backend\\backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JayathBSTECGlobal\\.nuget\\packages\\azure.core\\1.19.0\\azure.core.1.19.0.nupkg.sha512",
+    "C:\\Users\\JayathBSTECGlobal\\.nuget\\packages\\microsoft.aspnet.cors\\5.3.0\\microsoft.aspnet.cors.5.3.0.nupkg.sha512",
     "C:\\Users\\JayathBSTECGlobal\\.nuget\\packages\\microsoft.azure.cosmos\\3.38.1\\microsoft.azure.cosmos.3.38.1.nupkg.sha512",
     "C:\\Users\\JayathBSTECGlobal\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "C:\\Users\\JayathBSTECGlobal\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
@@ -114,5 +115,16 @@
     "C:\\Users\\JayathBSTECGlobal\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\JayathBSTECGlobal\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Cors 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Cors",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
