@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy container app to Azure Web App - app-webapi-certificate-issuer-dev-001
+name: Deploy container app to Azure Web App - app-webapi-certificate-issuer-dev-001
 
 on:
   push:
@@ -29,9 +29,10 @@ jobs:
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
       with:
+        context: ./Application/frontend
+        file: ./Application/frontend/Dockerfile
         push: true
         tags: certificateissuer.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_8013965dd9f74fc1a47293a8622dd756 }}/certificateissuer/frontend-app:${{ github.sha }}
-        file: ./Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
